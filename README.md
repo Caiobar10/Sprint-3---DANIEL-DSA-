@@ -3,9 +3,6 @@
 **Care Plus | Plataforma de Teleconsulta Remota**
 
 Sistema em C que gerencia o fluxo de atendimentos remotos da plataforma Blua. As estruturas de Fila (FIFO) e Pilha (LIFO) foram implementadas **do zero com listas encadeadas**, sem uso de nenhuma biblioteca pronta de fila ou pilha — conforme requisito do projeto.
-
-## Vídeo de demonstração
-[Assistir no YouTube](https://youtu.be/B-Un_7V8WRc)
 ---
 
 ## Estruturas de Dados Implementadas
@@ -71,6 +68,9 @@ Cinco pacientes são atendidos, mas o histórico tem capacidade máxima de 3 (po
 > A remoção do elemento mais antigo da pilha ao atingir o limite é a única operação O(n). Essa escolha preserva O(1) em todas as operações do caminho crítico (atender paciente, registrar consulta, desfazer ação) e ocorre apenas ao escrever no histórico quando ele está cheio — situação controlada e previsível.
 
 ---
+
+## Vídeo de demonstração
+[Assistir no YouTube](https://youtu.be/B-Un_7V8WRc)
 
 ## Estrutura do Projeto
 
